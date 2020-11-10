@@ -1,12 +1,43 @@
 @import '../../../src/assets/styles/variables';
 
-.pageContainer {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+    
+  background-color: $mainblue; 
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
   .heading {
       color: $orange;
       text-align: center;
       font-size: 35px;
       letter-spacing: 1px;
       text-shadow: 1px 1px 2px $navblue;
+      padding-bottom: 50px;
+  }
+  .infoCard {
+      background-color: $cardbackground;
+      font-size: 1.1rem;
+      color: $navblue;
+      width: 80%;
+      padding: 30px;
+      border-radius: 10px;
+      margin: 0 0 50px 0;
+      ol {
+        margin-left: 25px;
+      }
+      h2, h3, h4, p {
+        padding: 5px 0;
+      }
+      
+
   }
 }
