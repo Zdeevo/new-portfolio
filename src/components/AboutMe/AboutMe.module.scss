@@ -1,0 +1,12 @@
+@import '../../../src/assets/styles/variables';
+
+.pageContainer {
+
+  .heading {
+      color: $orange;
+      text-align: center;
+      font-size: 35px;
+      letter-spacing: 1px;
+      text-shadow: 1px 1px 2px $navblue;
+  }
+}
