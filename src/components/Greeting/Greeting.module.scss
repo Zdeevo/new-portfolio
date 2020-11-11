@@ -1,1 +1,42 @@
-@import '../../../src/assets/styles/variables'
+@import "../../../src/assets/styles/variables";
+
+.greetingMain {
+  padding-top: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  line-height: 45px;
+  .profilePic {
+    width: auto;
+    height: 20vh;
+    object-fit: cover;
+    background-size: contain;
+    border-radius: 50%;
+    border: 1px solid $navblue;
+  }
+  .greetingBox {
+    padding-bottom: 300px;
+    .greeting1 {
+      color: ivory;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px $navblue;
+    }
+    .greeting2 {
+      color: $orange;
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-shadow: 1px 1px 2px $navblue;
+    }
+    .greeting3 {
+      color: ivory;
+      font-size: 1.6rem;
+      letter-spacing: 3px;
+      text-shadow: 1px 1px 2px $navblue;
+    }
+  }
+}
