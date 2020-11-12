@@ -8,6 +8,9 @@ import Navbar from '../src/components/Navbar/Navbar';
 import ContactBar from "./components/ContactBar/ContactBar";
 
 const App = () => {
+
+  
+
   return (
     <div>
       <Navbar />

@@ -1,1 +1,6 @@
-@import '../../../src/assets/styles/variables'
+@import '../../../src/assets/styles/variables';
+
+.skillsList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
