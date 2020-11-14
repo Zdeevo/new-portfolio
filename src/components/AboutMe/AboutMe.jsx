@@ -8,7 +8,7 @@ const AboutMe = () => {
       <div className={styles.infoCard}>
         <h3>Professional</h3>
         <h4>Previous role: Senior Ecologist at Nicholas Pearson Associates</h4>
-        <p>
+        <div>
           Relevant skills:
           <ul>
             <li>
@@ -26,7 +26,7 @@ const AboutMe = () => {
               England.
             </li>
           </ul>
-        </p>
+        </div>
         <h4>Personal</h4>
         <p>
           I have always been interested in the practical aspects of technology
@@ -38,7 +38,7 @@ const AboutMe = () => {
           projector and a vga monitor.
         </p>
         <h4>Trivia</h4>
-        <p>
+        <div>
           <ol>
             <li>I built my own 3d printer.</li>
             <li>
@@ -47,7 +47,7 @@ const AboutMe = () => {
             <li>My dog is half Husky and half Jack Russell (don't ask).</li>
             <li>I have a drone pilots licence (PfCO).</li>
           </ol>
-        </p>
+        </div>
       </div>
     </div>
   );

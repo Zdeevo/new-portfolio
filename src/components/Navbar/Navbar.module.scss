@@ -1,1 +1,37 @@
-@import '../../../src/assets/styles/variables'
+@import '../../../src/assets/styles/variables';
+
+.iconText {
+  visibility: hidden;
+  &:hover {
+    visibility: visible;
+  }
+}
+
+.navBar {
+  li {
+    list-style-type: none;
+    width: 35px;
+    height: 35px;
+}
+.navBarIcons {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  width: 100vw;
+  height: 8vh;
+  opacity: 0.97;
+  background-color: $navblue;
+  }
+} 
+
+.icon {
+  font-size: 35px;
+  color: $iconblue;
+  
+}
+
+.navBarIcons {
+  bottom: 0;
+}

@@ -16,7 +16,7 @@ const Greeting = () => {
         </div>
         <h1 className={styles.greeting1}>Hi I'm</h1>
         <h1 className={styles.greeting2}>Steve Maguire</h1>
-        <h1 className={styles.greeting3}>Software Developer</h1>
+        <h1 className={styles.greeting3}>Junior Software Developer</h1>
         <ContactMe />
       </div>
     </section>

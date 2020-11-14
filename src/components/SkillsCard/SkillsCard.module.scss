@@ -1,11 +1,14 @@
 @import "../../../src/assets/styles/variables";
 
-.skillsCardContainer {
+.skillsCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   background-color: $cardbackground;
   margin: 20px;
   padding: 20px;
-  justify-content: center;
-  align-items: center;
+
 
   .skillsTitle {
     font-size: 25px;
@@ -17,6 +20,6 @@
     border: 2px solid black;
   }
   .skillsBody {
-
+    font-size: 14;
   }
 }

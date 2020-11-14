@@ -1,7 +1,7 @@
 @import "../../../src/assets/styles/variables";
 
 .greetingMain {
-  padding-top: 15vh;
+  padding-top: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,23 +18,23 @@
     border: 1px solid $navblue;
   }
   .greetingBox {
-    padding-bottom: 300px;
+    padding-bottom: 40vh;
     .greeting1 {
       color: ivory;
-      font-size: 2rem;
+      font-size: 1.8rem;
       font-weight: bold;
       text-shadow: 1px 1px 2px $navblue;
     }
     .greeting2 {
       color: $orange;
-      font-size: 2.5rem;
+      font-size: 2.2rem;
       font-weight: 700;
       letter-spacing: 3px;
       text-shadow: 1px 1px 2px $navblue;
     }
     .greeting3 {
       color: ivory;
-      font-size: 1.6rem;
+      font-size: 1.3rem;
       letter-spacing: 3px;
       text-shadow: 1px 1px 2px $navblue;
     }

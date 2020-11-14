@@ -1,6 +1,19 @@
 @import '../../../src/assets/styles/variables';
 
-.skillsList {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr)
+.skillsPage {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  .skillsHeading h2 {
+    color: $orange;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px $navblue;
+    padding-bottom: 50px;
+  }
+  .skillsCardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 450px));
+  }
 }

@@ -1,1 +1,39 @@
-@import '../../../src/assets/styles/variables'
+@import '../../../src/assets/styles/variables';
+
+.iconText {
+  visibility: hidden;
+  &:hover {
+    visibility: visible;
+  }
+}
+
+.contactBar {
+  li {
+    list-style-type: none;
+    width: 35px;
+    height: 35px;
+}
+.contactBarIcons {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  width: 100vw;
+  height: 8vh;
+  opacity: 0.97;
+  background-color: $navblue;
+    .icon, a {
+      background-color: $navblue;
+    }
+  }
+} 
+
+.icon {
+  font-size: 35px;
+  color: $iconblue;
+}
+
+.contactBarIcons {
+  top: 0;
+}

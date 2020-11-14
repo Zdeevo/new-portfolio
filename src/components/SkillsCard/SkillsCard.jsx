@@ -5,7 +5,7 @@ const SkillsCard = (props) => {
   const { title, image, body } = props.skill;
 
   return (
-    <div className={styles.skillsCardContainer}>
+    <div className={styles.skillsCard}>
       <div className={styles.skillsImg}>{image}</div>
       <div className={styles.skillsTitle}>{title}</div>
       <div className={styles.skillsBody}>{body}</div>

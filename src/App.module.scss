@@ -7,3 +7,17 @@
 body {
   background-color: $mainblue;
 }
+
+::-webkit-scrollbar {
+  width: 3vw;
+}
+::-webkit-scrollbar-track {
+  background: $cardbackground;
+}
+::-webkit-scrollbar-thumb {
+  background: $iconblue;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: $orange;
+}

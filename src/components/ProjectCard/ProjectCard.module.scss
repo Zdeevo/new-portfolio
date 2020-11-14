@@ -1,1 +1,24 @@
-@import '../../../src/assets/styles/variables'
+@import "../../../src/assets/styles/variables";
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: $cardbackground;
+  margin: 20px;
+  padding: 20px;
+
+  .projectTitle {
+    font-size: 25px;
+  }
+  .projectImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+  .projectBody {
+    font-size: 14;
+  }
+}

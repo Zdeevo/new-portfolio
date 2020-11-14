@@ -5,16 +5,16 @@ import skills from "../../data/skills";
 
 const SkillsList = () => {
   return (
-    <>
-      <div>
+    <section className={styles.skillsPage}>
+      <div className={styles.skillsHeading}>
         <h2>Skills List</h2>
       </div>
-      <div className={styles.skillsList}>
+      <div className={styles.skillsCardContainer}>
         {skills.map((skill) => {
           return <SkillsCard skill={skill} />;
         })}
       </div>
-    </>
+    </section>
   );
 };
 
