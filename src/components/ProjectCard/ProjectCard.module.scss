@@ -1,24 +1,46 @@
 @import "../../../src/assets/styles/variables";
 
 .projectCard {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-rows: 50% 10% 30% 10%;
+  justify-content: center;
   align-items: center;
-  background-color: $cardbackground;
+  height: 36vh;
   margin: 20px;
-  padding: 20px;
+  border-radius: 10px;
+  background-color: $cardbackground;
+  box-shadow: 5px 5px 10px 2px black;
+  border: 1.5px solid $iconblue;
+  color: $navblue;
+  font-weight: 700;
 
-  .projectTitle {
-    font-size: 25px;
-  }
   .projectImg {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 2px solid black;
+    align-items: center;
+    width: auto;
+    height: 100px;
+    margin: auto;
+    padding: 5px;
+  }
+  .projectTitle {
+    max-height: 23px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 3px;
+    line-height: 0;
   }
   .projectBody {
-    font-size: 14;
+    max-height: 69px;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    line-height: 16px;
+    padding: 5px 5px 5px 5px;
+  }
+  .projectLink {
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5px;
   }
 }

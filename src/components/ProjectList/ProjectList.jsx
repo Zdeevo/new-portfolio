@@ -9,7 +9,7 @@ const ProjectList = () => {
       <div className={styles.projectHeading}>
         <h2>Project List</h2>
       </div>
-      <div className={styles.projectCardContainer}>
+      <div className={styles.projectCardGrid}>
         {projects.map((project) => {
           return <ProjectCard project={project} />;
         })}

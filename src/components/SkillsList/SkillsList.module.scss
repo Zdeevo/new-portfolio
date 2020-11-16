@@ -4,16 +4,21 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  .skillsHeading h2 {
+  .skillsHeading {
     color: $orange;
     text-align: center;
-    font-size: 35px;
+    font-size: 28px;
     letter-spacing: 1px;
     text-shadow: 1px 1px 2px $navblue;
     padding-bottom: 50px;
   }
-  .skillsCardContainer {
+  .skillsCardGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 450px));
+    grid-template-columns: repeat(auto-fit, minmax(275px, 400px));
+    grid-template-rows: repeat(auto-fit, minmax(225px, 350px));
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    max-width: 1250px; 
   }
 }

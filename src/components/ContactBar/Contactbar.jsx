@@ -17,6 +17,7 @@ const Contactbar = () => {
             <a
               href="https://www.linkedin.com/in/steve-maguire-a5a8926a"
               target="_blank"
+              rel="noreferrer"
             >
               <FontAwesomeIcon
                 icon={["fab", "linkedin"]}
@@ -26,7 +27,11 @@ const Contactbar = () => {
             </a>
           </li>
           <li>
-            <a href="https://github.com/Zdeevo" target="_blank">
+            <a
+              href="https://github.com/Zdeevo"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon
                 icon={["fab", "github-square"]}
                 className={styles.icon}

@@ -1,25 +1,45 @@
 @import "../../../src/assets/styles/variables";
 
 .skillsCard {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-rows: 35% 15% 10% 40%;
+  justify-content: center;
   align-items: center;
-  background-color: $cardbackground;
+  height: 35vh;
   margin: 20px;
-  padding: 20px;
+  border-radius: 10px;
+  background-color: $cardbackground;
+  box-shadow: 5px 5px 10px 2px black;
+  border: 1.5px solid $iconblue;
+  color: $navblue;
+  font-weight: 700;
 
 
   .skillsTitle {
-    font-size: 25px;
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    line-height: 20px;
+  }
+  .skillsSubtitle {
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
   }
   .skillsImg {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 2px solid black;
+    align-items: center;
+    width: auto;
+    height: 70px;
+    margin: auto;
+    background-size: auto;
   }
   .skillsBody {
-    font-size: 14;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    line-height: 18px;
+    padding: 5px;
+
   }
 }

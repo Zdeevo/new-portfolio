@@ -1,7 +1,7 @@
 @import "../../../src/assets/styles/variables";
 
 .greetingMain {
-  padding-top: 40vh;
+  padding-top: 35vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,6 +37,7 @@
       font-size: 1.3rem;
       letter-spacing: 3px;
       text-shadow: 1px 1px 2px $navblue;
+      margin-bottom: 20px;
     }
   }
 }

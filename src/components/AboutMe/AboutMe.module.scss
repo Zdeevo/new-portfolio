@@ -1,26 +1,20 @@
 @import "../../../src/assets/styles/variables";
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.pageContainer {
+.aboutMePage {
   display: flex;
   flex-direction: column;
   align-items: center;
-  .heading {
+  .aboutMeHeading {
     color: $orange;
     text-align: center;
-    font-size: 35px;
+    font-size: 28px;
     letter-spacing: 1px;
     text-shadow: 1px 1px 2px $navblue;
     padding-bottom: 50px;
   }
-  .infoCard {
+  .aboutMeCard {
     background-color: $cardbackground;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: $navblue;
     width: 80%;
     padding: 30px;

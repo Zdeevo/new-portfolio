@@ -3,9 +3,9 @@ import styles from "./AboutMe.module.scss";
 
 const AboutMe = () => {
   return (
-    <div className={styles.pageContainer}>
-      <h2 className={styles.heading}>About Me</h2>
-      <div className={styles.infoCard}>
+    <div className={styles.aboutMePage}>
+      <h2 className={styles.aboutMeHeading}>About Me</h2>
+      <div className={styles.aboutMeCard}>
         <h3>Professional</h3>
         <h4>Previous role: Senior Ecologist at Nicholas Pearson Associates</h4>
         <div>

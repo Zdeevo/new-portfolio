@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" media="only screen and (max-width: 991px)"  href="styles.css">
+  <link rel="stylesheet" media="only screen and (min-width: 992px)" href="styleslg.css" />
+  <script src="https://kit.fontawesome.com/55e590b626.js" crossorigin="anonymous"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">  
+  <!-- <script src+"navGlow.js"></script> -->
+
+  <title>Steve Maguire</title>
+  
+</head>
+<body>
+
+<main class="scrollContainer">
+  <nav class="navBarLeft" id="navBarLeft">
+
+    <ul class="navIcons">
+      <li><a href="#home"><i class="fas fa-home"></i></a><span>HOME</span></li>
+      <li><a href="#projectsPage" class="current"><i class="fas fa-folder-open"></i></a><span>PROJECTS</span></li>
+      <li><a href="#skillsPage"><i class="fas fa-code"></i></a><span>SKILLS</span></li>
+      <li><a href="#aboutMe"><i class="fas fa-user-circle"></i></a><span>ABOUT</span></li>
+    </ul>       
+  </nav> 
+
+  <nav class="navBarRight" id="navBarRight">  
+    <ul class="contact" id="contact">
+      <li><a href="mailto:semaguire75@gmail.com"><i class="fas fa-envelope" id="envelope"></i><span id="email-text">EMAIL</span></a></li>
+      <li><a href="https://www.linkedin.com/in/steve-maguire-a5a8926a" target="_blank">
+        <i class="fab fa-linkedin" id="linkedin"></i>
+        <span id="linkedin-text">LINKEDIN</span></a></li>
+      <li><a href="https://github.com/Zdeevo" target="_blank"><i class="fab fa-github-square" id="github"></i><span id="github-text">GITHUB</span></a></li>
+    </ul>    
+  </nav>
+
+<!-- Greeting on landing page -->
+
+  <section class="greetingMain" class="scrollChild" id="home" class="container">
+    <div class="greetingBox" >
+      <header>
+        <div>
+          <img src="./assets/profile-pic-greyscale.jpg" alt="My big mug" id="profilePic">
+        </div>
+        <h1 class="greeting1" id="greeting1">Hi, I'm</h1>
+        <h1 class="greeting2" id="greeting2">Steve Maguire</h1>
+        <h1 class="greeting3" id="greeting3">Software Developer</h1>
+      </header>
+
+      <nav class="greeting4" onclick="openForm()" id="greeting4">
+        <a href="#" class="greeting4-text">CONTACT ME</a>
+      </nav>
+      <div class="form-popup" id="myForm">
+        <form class="form-container">
+      
+          <label for="name"></label>
+          <input type="text" placeholder="Name" name="name" required>
+      
+          <label for="email"></label>
+          <input type="email" placeholder="Email" name="email" required>
+
+          <label for="message"></label>
+          <input class="message-box" type="message" placeholder="Leave me a message..." name="message" required>
+      
+          <button type="submit" class="btn" id="submit" >Submit</button>
+          <button type="cancel" class="btn" id="cancel" onclick="closeForm()">Cancel</button>
+        </form>
+      </div> 
+    </div> 
+  </section>
+
+<!-- Projects page -->
+
+<h2 class="projectsTitle" id="projectsPage" class="container">Projects</h2>
+
+<ul class="projectsContainer">
+  <li class="projectCard">
+    <img src="./assets/Firewatch04.jpg" alt="Project image">
+    <h3>Project Title</h3> 
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ducimus eligendi molestiae quibusdam reiciendis architecto cumque modi debitis qui iste.</p>
+   
+  </li>
+  <li class="projectCard">
+    <img src="./assets/Firewatch04.jpg" alt="Project image">
+    <h3>Project Title</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ducimus eligendi molestiae quibusdam reiciendis architecto cumque modi debitis qui iste.</p>
+  </li>
+  <li class="projectCard">
+    <img src="./assets/Firewatch04.jpg" alt="Project image">
+    <h3>Project Title</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ducimus eligendi molestiae quibusdam reiciendis architecto cumque modi debitis qui iste.</p>
+  </li>
+  <li class="projectCard">
+    <img src="./assets/Firewatch04.jpg" alt="Project image">
+    <h3>Project Title</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ducimus eligendi molestiae quibusdam reiciendis architecto cumque modi debitis qui iste.</p>
+  </li>
+  <li class="projectCard">
+    <img src="./assets/Firewatch04.jpg" alt="Project image">
+    <h3>Project Title</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ducimus eligendi molestiae quibusdam reiciendis architecto cumque modi debitis qui iste.</p>
+  </li>
+  <li class="projectCard">
+    <img src="./assets/Firewatch04.jpg" alt="Project image">
+    <h3>Project Title</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ducimus eligendi molestiae quibusdam reiciendis architecto cumque modi debitis qui iste.</p>
+  </li>
+</ul>
+
+<h2 class="skillsTitle" id="skillsPage" class="container">Skills</h2>
+
+<ul class="skillsContainer">
+  <li class="skillCard">
+    <img src="./assets/Firewatch02.jpg" alt="skill image">
+    <h3>Node.js</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ducimus eligendi molestiae quibusdam reiciendis architecto cumque modi debitis qui iste.</p>
+  </li>
+  <li class="skillCard">
+    <img src="./assets/Firewatch02.jpg" alt="skill image">
+    <h3>Bootstrap</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ducimus eligendi molestiae quibusdam reiciendis architecto cumque modi debitis quiiste.</p>
+  </li>
+  <li class="skillCard">
+    <img src="./assets/Firewatch02.jpg" alt="skill image">
+    <h3>SASS</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ducimus eligendi molestiae quibusdam reiciendis architecto cumque modi debitis qui iste.</p>
+  </li>
+  <li class="skillCard">
+    <img src="./assets/Firewatch02.jpg" alt="skill image">
+    <h3>React.js</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ducimus eligendi molestiae quibusdam reiciendis architecto cumque modi debitis qui iste.</p>
+  </li>
+  <li class="skillCard">
+    <img src="./assets/Firewatch02.jpg" alt="skill image">
+    <h3>Kung-Fu</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ducimus eligendi molestiae quibusdam reiciendis architecto cumque modi debitis qui iste.</p>
+  </li>
+  <li class="skillCard">
+    <img src="./assets/Firewatch02.jpg" alt="skill image">
+    <h3>Googling</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, ducimus eligendi molestiae quibusdam reiciendis architecto cumque modi debitis qui iste.
+    </p>
+  </li>
+</ul>
+
+<h2 class="aboutMeTitle" id="aboutMe" class="container">About Me</h2>
+
+<div>
+  <article class="aboutMe">
+    <h4 class="topSubtitle">Professional</h4>
+    <h5>Previous role: Senior Ecologist at Nicholas Pearson Associates</h5>
+    <p>Relevant skills <br> 
+    - Management: projects, budgets, junior staff, marketing, sub-consultants. <br>
+    - Client: Project liaison, design team input, planning process support. <br>
+    - Technology: All aspects of hardware and software management for the team. I also co-developed an Android app to streamline data gathering in the field for a nationwide project with Natural England.
+    </p>
+    <h4>Personal</h4>
+    <p>I have always been interested in the practical aspects of technology and how it can support and enhance our everyday lives. My interest in electronics and making has lead me to work on a number of fun and challenging personal projects including a bar-top retro arcade machine, and a homemade drone. Before buying a commercial one, I also built a fully functional film projector out of an old overhead projector and a vga monitor.</p>
+    <h4>Trivia</h4>    
+    <p class="lastPara">
+      1. I built my own 3d printer. <br>
+      2. My 13 year old son is almost my height ... I'm 6ft 3in tall!! <br>
+      3. My dog is half Husky and half Jack Russell (don't ask). <br>
+      4. I have a drone pilots licence (PfCO).
+    </p>
+</article>
+</div>
+</main>
+
+</body>
+<script src="contact.js"></script>
+</html>

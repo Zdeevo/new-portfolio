@@ -1,7 +1,10 @@
 @import '../src/assets/styles/variables';
 
 * {
+  box-sizing: border-box;
   font-family: $primaryfont;
+  margin: 0;
+  padding: 0;
 }
 
 body {

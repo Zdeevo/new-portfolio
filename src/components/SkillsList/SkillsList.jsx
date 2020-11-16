@@ -9,7 +9,7 @@ const SkillsList = () => {
       <div className={styles.skillsHeading}>
         <h2>Skills List</h2>
       </div>
-      <div className={styles.skillsCardContainer}>
+      <div className={styles.skillsCardGrid}>
         {skills.map((skill) => {
           return <SkillsCard skill={skill} />;
         })}
