@@ -3,13 +3,17 @@ import styles from "./AboutMe.module.scss";
 
 const AboutMe = () => {
   return (
-    <div className={styles.aboutMePage}>
+    <section className={styles.aboutMePage} id="aboutme">
       <h2 className={styles.aboutMeHeading}>About Me</h2>
+
       <div className={styles.aboutMeCard}>
         <h3>Professional</h3>
-        <h4>Previous role: Senior Ecologist at Nicholas Pearson Associates</h4>
-        <div>
-          Relevant skills:
+          <h4>
+            Previous role: Senior Ecologist at Nicholas Pearson Associates
+          </h4>
+          <h5>
+            Relevant skills:
+          </h5>
           <ul>
             <li>
               - Management: projects, budgets, junior staff, marketing,
@@ -27,17 +31,27 @@ const AboutMe = () => {
             </li>
           </ul>
         </div>
-        <h4>Personal</h4>
-        <p>
-          I have always been interested in the practical aspects of technology
-          and how it can support and enhance our everyday lives. My interest in
-          electronics and making has lead me to work on a number of fun and
-          challenging personal projects including a bar-top retro arcade
-          machine, and a homemade drone. Before buying a commercial one, I also
-          built a fully functional film projector out of an old overhead
-          projector and a vga monitor.
-        </p>
-        <h4>Trivia</h4>
+
+
+        <div className={styles.aboutMeCard}>
+          <h4>
+            Personal
+          </h4>
+          <p>
+            I have always been interested in the practical aspects of technology
+            and how it can support and enhance our everyday lives. My interest in
+            electronics and making has lead me to work on a number of fun and
+            challenging personal projects including a bar-top retro arcade
+            machine, and a homemade drone. Before buying a commercial one, I also
+            built a fully functional film projector out of an old overhead
+            projector and a vga monitor.
+          </p>
+        </div>
+
+      <div className={styles.aboutMeCard}>
+        <h4>
+          Trivia
+        </h4>
         <div>
           <ol>
             <li>I built my own 3d printer.</li>
@@ -47,9 +61,10 @@ const AboutMe = () => {
             <li>My dog is half Husky and half Jack Russell (don't ask).</li>
             <li>I have a drone pilots licence (PfCO).</li>
           </ol>
-        </div>
+        </div> 
       </div>
-    </div>
+
+    </section>
   );
 };
 

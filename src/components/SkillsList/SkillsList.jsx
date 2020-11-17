@@ -5,10 +5,8 @@ import skills from "../../data/skills";
 
 const SkillsList = () => {
   return (
-    <section className={styles.skillsPage}>
-      <div className={styles.skillsHeading}>
-        <h2>Skills List</h2>
-      </div>
+    <section className={styles.skillsPage} id="skills">
+        <h2 className={styles.skillsHeading}>Skills List</h2>
       <div className={styles.skillsCardGrid}>
         {skills.map((skill) => {
           return <SkillsCard skill={skill} />;

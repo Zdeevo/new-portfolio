@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Navbar.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
@@ -8,24 +9,48 @@ const Navbar = () => {
       <nav className={styles.navBar}>
         <ul className={styles.navBarIcons}>
           <li>
-            <a href="" title="Home"><FontAwesomeIcon icon="home" className={styles.icon}/></a>
-            
-            {/* <span className={styles.iconText}>HOME</span> */}
+            <Link
+              activeClass="active"
+              to="greeting"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              <FontAwesomeIcon icon="home" className={styles.icon} />
+            </Link>
           </li>
           <li>
-            <a href="" title="Projects"><FontAwesomeIcon icon="folder-open" className={styles.icon} /></a>
-            
-            {/* <span className={styles.iconText}>PROJECTS</span> */}
+            <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              <FontAwesomeIcon icon="folder-open" className={styles.icon} />
+            </Link>
           </li>
           <li>
-            <a href="" title="Skills"><FontAwesomeIcon icon="code" className={styles.icon} /></a>
-            
-            {/* <span className={styles.iconText}>SKILLS</span> */}
+            <Link
+              activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              <FontAwesomeIcon icon="code" className={styles.icon} />
+            </Link>
           </li>
           <li>
-            <a href="" title="About Me"><FontAwesomeIcon icon="user-circle" className={styles.icon} /></a>
-            
-            {/* <span className={styles.iconText}>ABOUT</span> */}
+            <Link
+              activeClass="active"
+              to="aboutme"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              <FontAwesomeIcon icon="user-circle" className={styles.icon} />
+            </Link>
           </li>
         </ul>
       </nav>

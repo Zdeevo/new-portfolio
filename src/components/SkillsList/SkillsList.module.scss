@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   margin: 0;
+  padding-top: 70px;
+  min-height: 100vh;
 
   .skillsHeading {
     color: $orange;
@@ -11,7 +13,7 @@
     font-size: 28px;
     letter-spacing: 1px;
     text-shadow: 1px 1px 2px $navblue;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
   .skillsCardGrid {
     display: grid;
@@ -20,5 +22,11 @@
     align-content: center;
     margin: auto;
     max-width: 1250px; 
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .skillsPage {
+    margin: 0 70px;
   }
 }

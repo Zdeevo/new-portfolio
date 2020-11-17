@@ -5,10 +5,8 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 
 const ProjectList = () => {
   return (
-    <section className={styles.projectPage}>
-      <div className={styles.projectHeading}>
-        <h2>Project List</h2>
-      </div>
+    <section className={styles.projectPage} id="projects">
+        <h2 className={styles.projectHeading}>Project List</h2>
       <div className={styles.projectCardGrid}>
         {projects.map((project) => {
           return <ProjectCard project={project} />;

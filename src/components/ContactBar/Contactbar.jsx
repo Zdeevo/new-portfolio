@@ -8,10 +8,8 @@ const Contactbar = () => {
       <nav className={styles.contactBar}>
         <ul className={styles.contactBarIcons}>
           <li>
-            <a href="mailto:semaguire75@gmail.com" title="Email">
+            <a href="mailto:semaguire75@gmail.com">
               <FontAwesomeIcon icon="envelope" className={styles.icon} />
-              <span className={styles.iconText}
-              >EMAIL</span>
             </a>
           </li>
           <li>
@@ -19,13 +17,11 @@ const Contactbar = () => {
               href="https://www.linkedin.com/in/steve-maguire-a5a8926a"
               target="_blank"
               rel="noreferrer"
-              title="LinkedIn"
             >
               <FontAwesomeIcon
                 icon={["fab", "linkedin"]}
                 className={styles.icon}
               />
-              <span className={styles.iconText}>LINKEDIN</span>
             </a>
           </li>
           <li>
@@ -33,13 +29,11 @@ const Contactbar = () => {
               href="https://github.com/Zdeevo"
               target="_blank"
               rel="noreferrer"
-              title="GitHub"
             >
               <FontAwesomeIcon
                 icon={["fab", "github-square"]}
                 className={styles.icon}
               />
-              <span className={styles.iconText}>GITHUB</span>
             </a>
           </li>
         </ul>

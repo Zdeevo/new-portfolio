@@ -4,22 +4,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  min-height: 100vh;
+
   .aboutMeHeading {
     color: $orange;
     text-align: center;
     font-size: 28px;
     letter-spacing: 1px;
     text-shadow: 1px 1px 2px $navblue;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
   .aboutMeCard {
     background-color: $cardbackground;
-    font-size: 1rem;
+    font-size: 14px;
+    line-height: 16px;
     color: $navblue;
-    width: 80%;
-    padding: 30px;
+    width: 90%;
+    max-width: 1075px;
+    margin: 10px 0 20px 0;
+    padding: 15px;
     border-radius: 10px;
-    margin: 0 0 50px 0;
+    box-shadow: 5px 5px 10px 2px black;
+    border: 1.5px solid $iconblue;
+
     ul {
       list-style: none;
     }
@@ -30,7 +40,27 @@
     h3,
     h4,
     p {
-      padding: 5px 0;
+      padding: 3px 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .aboutMePage {
+    .aboutMeCard {
+      width: unset;
+      max-width: 70vw;
+      font-size: 18px;
+    }
+  }
+}
+
+@media only screen and (min-width: 899px) {
+  .aboutMePage {
+    .aboutMeCard {
+      width: unset;
+      max-width: 70vw;
+      font-size: 20px;
     }
   }
 }

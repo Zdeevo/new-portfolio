@@ -41,3 +41,12 @@
     }
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .greetingMain {
+    .profilePic {
+      border-radius: 10%;
+      transition: ease 1.5s;
+    }
+  }
+}

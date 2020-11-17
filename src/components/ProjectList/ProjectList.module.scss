@@ -4,6 +4,8 @@
   justify-content: center;
   align-content: center;
   margin: 0;
+  padding-top: 50px;
+  min-height: 100vh;
 
   .projectHeading {
     color: $orange;
@@ -11,7 +13,7 @@
     font-size: 28px;
     letter-spacing: 1px;
     text-shadow: 1px 1px 2px $navblue;
-    padding-bottom: 50px;
+    padding: 20px;
   }
   .projectCardGrid {
     display: grid;
@@ -19,6 +21,12 @@
     justify-content: center;
     align-content: center;
     margin: auto;
-    max-width: 1250px; 
+    max-width: 1250px;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .projectPage {
+    margin: 0 70px;
   }
 }
