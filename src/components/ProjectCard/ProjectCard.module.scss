@@ -5,7 +5,7 @@
   grid-template-rows: 50% 10% 30% 10%;
   justify-content: center;
   align-items: center;
-  height: 36vh;
+  height: 275px;
   margin: 20px;
   border-radius: 10px;
   background-color: $cardbackground;
@@ -22,7 +22,6 @@
     padding: 5px;
   }
   .projectTitle {
-    max-height: 23px;
     font-size: 20px;
     text-align: center;
     margin: auto;
@@ -30,7 +29,6 @@
     line-height: 0;
   }
   .projectBody {
-    max-height: 69px;
     font-size: 14px;
     text-align: center;
     margin: auto;

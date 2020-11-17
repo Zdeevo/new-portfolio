@@ -1,12 +1,8 @@
 @import '../../../src/assets/styles/variables';
 
-.iconText {
-  visibility: hidden;
-  &:hover {
-    visibility: visible;
-  }
+.icon:hover {
+    text-shadow: 2px 2px 2px 10px $iconblue; 
 }
-
 .contactBar {
   li {
     list-style-type: none;
@@ -23,17 +19,45 @@
   height: 8vh;
   opacity: 0.97;
   background-color: $navblue;
-    .icon, a {
-      background-color: $navblue;
-    }
+  top: 0;
   }
 } 
+
+.icon:hover { 
+  filter: drop-shadow(0px 0px 10px $iconblue);
+}
 
 .icon {
   font-size: 35px;
   color: $iconblue;
+  &:active {
+    color: $orange;
+  }
 }
 
-.contactBarIcons {
-  top: 0;
+@media only screen and (min-width: 768px) {
+
+  .contactBar {
+    height: 100vh;
+    width: 70px; 
+    position: fixed; 
+    right: 0;
+    padding: 25vh 0;
+    background-color: $navblue;
+    margin: auto;
+    top: unset;
+    ul {
+      padding: 20px 0;
+    }
+    .contactBarIcons {
+      display: flex;
+      flex-direction: column;
+      height: 50vh;
+      width: 70px;
+      justify-content: space-between;
+      align-items: center;
+      margin: auto;
+      top: unset;
+    }
+  }
 }

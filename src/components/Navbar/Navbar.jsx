@@ -8,20 +8,24 @@ const Navbar = () => {
       <nav className={styles.navBar}>
         <ul className={styles.navBarIcons}>
           <li>
-            <FontAwesomeIcon icon="home" className={styles.icon} />
-            <span className={styles.iconText}>HOME</span>
+            <a href="" title="Home"><FontAwesomeIcon icon="home" className={styles.icon}/></a>
+            
+            {/* <span className={styles.iconText}>HOME</span> */}
           </li>
           <li>
-            <FontAwesomeIcon icon="folder-open" className={styles.icon} />
-            <span className={styles.iconText}>PROJECTS</span>
+            <a href="" title="Projects"><FontAwesomeIcon icon="folder-open" className={styles.icon} /></a>
+            
+            {/* <span className={styles.iconText}>PROJECTS</span> */}
           </li>
           <li>
-            <FontAwesomeIcon icon="code" className={styles.icon} />
-            <span className={styles.iconText}>SKILLS</span>
+            <a href="" title="Skills"><FontAwesomeIcon icon="code" className={styles.icon} /></a>
+            
+            {/* <span className={styles.iconText}>SKILLS</span> */}
           </li>
           <li>
-            <FontAwesomeIcon icon="user-circle" className={styles.icon} />
-            <span className={styles.iconText}>ABOUT</span>
+            <a href="" title="About Me"><FontAwesomeIcon icon="user-circle" className={styles.icon} /></a>
+            
+            {/* <span className={styles.iconText}>ABOUT</span> */}
           </li>
         </ul>
       </nav>

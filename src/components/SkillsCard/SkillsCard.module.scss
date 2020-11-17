@@ -5,7 +5,7 @@
   grid-template-rows: 35% 15% 10% 40%;
   justify-content: center;
   align-items: center;
-  height: 35vh;
+  height: 275px;
   margin: 20px;
   border-radius: 10px;
   background-color: $cardbackground;
@@ -14,7 +14,12 @@
   color: $navblue;
   font-weight: 700;
 
-
+ .skillsImg {
+    align-items: center;
+    width: auto;
+    height: 70px;
+    margin: auto;
+  }
   .skillsTitle {
     font-size: 22px;
     text-align: center;
@@ -26,13 +31,6 @@
     text-align: center;
     margin: auto;
     font-size: 18px;
-  }
-  .skillsImg {
-    align-items: center;
-    width: auto;
-    height: 70px;
-    margin: auto;
-    background-size: auto;
   }
   .skillsBody {
     font-size: 14px;

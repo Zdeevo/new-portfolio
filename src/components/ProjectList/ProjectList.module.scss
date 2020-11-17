@@ -15,8 +15,7 @@
   }
   .projectCardGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(275px, 400px));
-    grid-template-rows: repeat(auto-fit, minmax(225px, 350px));
+    grid-template-columns: repeat(auto-fit, minmax(275px, 370px));
     justify-content: center;
     align-content: center;
     margin: auto;
