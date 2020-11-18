@@ -44,7 +44,28 @@
 
 @media only screen and (min-width: 768px) {
   .greetingMain {
+    .greetingBox {
+      .greeting1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px $navblue;
+    }
+    .greeting2 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-shadow: 1px 1px 2px $navblue;
+    }
+    .greeting3{
+      font-size: 1.7rem;
+      letter-spacing: 3px;
+      text-shadow: 1px 1px 2px $navblue;
+      margin-bottom: 20px;
+    }
+    }
+    
     .profilePic {
+      height: 25vh;
       border-radius: 10%;
       transition: ease 1.5s;
     }
