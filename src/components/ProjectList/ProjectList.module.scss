@@ -4,7 +4,7 @@
   justify-content: center;
   align-content: center;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 65px;
   min-height: 100vh;
 
   .projectHeading {
@@ -13,7 +13,7 @@
     font-size: 28px;
     letter-spacing: 1px;
     text-shadow: 1px 1px 2px $navblue;
-    padding: 20px;
+    padding-bottom: 20px;
   }
   .projectCardGrid {
     display: grid;
@@ -29,4 +29,25 @@
   .projectPage {
     margin: 0 70px;
   }
+}
+
+@media only screen and (min-width: 768px) {
+  .projectPage {
+    padding-top: 20px;
+    .projectHeading {
+      font-size: 34px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .projectPage {
+    .projectCardGrid {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 400px));
+      }
+  }
+  
+
+
 }

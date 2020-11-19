@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   margin: 0;
-  padding-top: 70px;
+  padding-top: 65px;
   min-height: 100vh;
 
   .skillsHeading {
@@ -29,4 +29,25 @@
   .skillsPage {
     margin: 0 70px;
   }
+}
+
+@media only screen and (min-width: 768px) {
+  .skillsPage {
+    padding-top: 20px;
+    .skillsHeading {
+      font-size: 34px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .skillsPage {
+    .skillsCardGrid {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 400px));
+      }
+  }
+  
+
+
 }

@@ -11,15 +11,15 @@ const projects = [
     title: "The Hero's Choice",
     image: "https://i.imgur.com/MdPAxr8.png",
     body:
-      "A 'choose your own adventure' game utilising a JavaScript switch/case setup to take you through a magical adventure. Are you brave enough?",
+      "A 'choose your own adventure' game utilising JavaScript switch/case to dynamically asisgn attributes with each button click to take you through a magical adventure. Are you brave enough?",
     github: "https://github.com/Zdeevo/hero_quest",
     weblink: "https://quest.stevemaguire.dev",
   },
   {
     title: "Punk API",
-    image: "https://i.imgur.com/JTqQnlK.png",
+    image: "https://i.imgur.com/xpCfTRR.png",
     body:
-      "An app to fetch beers from the Punk API. The list of beers can then be filtered according to strength or searched using a keyword",
+      "An app to fetch beers from the Punk API. The list of beers can then be filtered according to strength or searched dynamically using a keyword",
     github: "https://github.com/Zdeevo/punk-beers",
     weblink: "https://stevemaguire.dev",
   },
