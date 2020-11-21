@@ -1,5 +1,11 @@
 const skills = [
   {
+    title: "Frontend Fundamentals",
+    image: "https://i.imgur.com/2o1RvbS.png",
+    body:
+      "In the early weeks of the course I mastered the fundamnetals of frontend development: HTML, CSS & SCSS (SASS). I learned how to structure and design a web app. I also learned how to take HTML styling to the next level with the CSS extension language, SASS.",
+  },
+  {
     title: "JavaScript",
     image: 'https://i.imgur.com/OcduSQV.png',
     body:
@@ -18,8 +24,8 @@ const skills = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur debitis perspiciatis vitae architecto dignissimos quaerat minima ad cumque. Provident.",
   },
   {
-    title: "Sass",
-    image: "https://i.imgur.com/2o1RvbS.png",
+    title: "JavaScript",
+    image: "https://via.placeholder.com/150",
     body:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur debitis perspiciatis vitae architecto dignissimos quaerat minima ad cumque. Provident.",
   },
@@ -29,12 +35,6 @@ const skills = [
     body:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur debitis perspiciatis vitae architecto dignissimos quaerat minima ad cumque. Provident.",
   },
-  {
-    title: "JavaScript",
-    image: "https://via.placeholder.com/150",
-    body:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur debitis perspiciatis vitae architecto dignissimos quaerat minima ad cumque. Provident.",
-  }
 ];
 
 export default skills;
