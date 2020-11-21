@@ -68,7 +68,7 @@ const AboutMe = () => {
             <li>My dog is half Husky and half Jack Russell (don't ask).</li>
             <li>
               I have previously held a CAA drone pilots licence (PfCO) and
-              continue to be facinated by this fast and ever evoloving
+              continue to be facinated by this fast and ever evolving
               technology, especially it's importance for remote access.
             </li>
           </ol>
