@@ -16,6 +16,8 @@
     background-size: contain;
     border-radius: 50%;
     border: 1px solid $navblue;
+    box-shadow: 5px 5px 10px 2px black;
+    border: 1.5px solid $orange;
   }
   .greetingBox {
     padding-bottom: 40vh;
