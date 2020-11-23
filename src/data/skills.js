@@ -13,7 +13,7 @@ const skills = [
   },
   {
     title: "React",
-    image: "https://i.imgur.com/6Z2RtJu.png",
+    image: "https://i.imgur.com/uWAGPNN.png",
     body:
       "In week six I started learning React. The flexiblity provided by this JavaScript library, especially the ability to break an app down into separate components, allows for an even greater level of control and adaptability versus 'vanilla' JS. This portfolio site is written in React.js.",
   },

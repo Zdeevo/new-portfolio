@@ -17,7 +17,7 @@ const projects = [
   },
   {
     title: "Punk API",
-    image: "https://i.imgur.com/PhtnyhX.png",
+    image: "https://i.imgur.com/CGZPKfL.png",
     body:
       "An app to fetch beers from the Punk API. The list of beers can then be filtered according to strength or searched dynamically using a keyword. Currently built for desktop view, with breakpoints for smaller screens to be added going forward.",
     github: "https://github.com/Zdeevo/punk-beers",
