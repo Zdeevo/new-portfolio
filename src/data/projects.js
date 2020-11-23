@@ -9,7 +9,7 @@ const projects = [
   },
   {
     title: "The Hero's Choice",
-    image: "https://i.imgur.com/MdPAxr8.png",
+    image: "https://i.imgur.com/dqZ26hq.png",
     body:
       "A 'choose your own adventure' game utilising JavaScript switch/case to dynamically asisgn attributes with each button click to take you through a magical adventure. Are you brave enough?",
     github: "https://github.com/Zdeevo/hero_quest",
@@ -17,7 +17,7 @@ const projects = [
   },
   {
     title: "Punk API",
-    image: "https://i.imgur.com/xpCfTRR.png",
+    image: "https://i.imgur.com/PhtnyhX.png",
     body:
       "An app to fetch beers from the Punk API. The list of beers can then be filtered according to strength or searched dynamically using a keyword. Currently built for desktop view, with breakpoints for smaller screens to be added going forward.",
     github: "https://github.com/Zdeevo/punk-beers",
@@ -41,10 +41,10 @@ const projects = [
   },
   {
     title: "Calculator",
-    image: "https://via.placeholder.com/150",
+    image: "https://i.imgur.com/Gqk3WFl.png",
     body:
       "A clean, simple calculator app built using class based JavaScript. One of the first full apps built during the course.",
-    github: "https://github.com/Zdeevo",
+    github: "https://github.com/Zdeevo/calculator",
     weblink: "https://calculator-63759.web.app/",
   },
 ];
